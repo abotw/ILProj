@@ -54,3 +54,5 @@ git push # 将本地同步到云端
 第一次 `git clone` 的时候，会有一个认证确认，需要输入 `yes`，直接回车不可以。下面这张图片没有显示这个部分是因为我之前已经 `git clone` 过了，需要注意一下。
 
 ![](../docs-images/008-Snipaste_2023-02-21_19-30-49.png)
+测试
+![](https://hbimg.b0.upaiyun.com/f74debe2772e8cba04f2b8ea5fa9c6a807030ae93ca9f-UcQGOZ_fw658)
