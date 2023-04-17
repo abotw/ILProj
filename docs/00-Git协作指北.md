@@ -31,28 +31,26 @@ git push # 将本地同步到云端
 
 ### 一、初次使用的操作流程
 
-![](../docs-images/001-Snipaste_2023-02-21_19-01-54.png)
+![](./assets/001-Snipaste_2023-02-21_19-01-54.png)
 
-![](../docs-images/002-Snipaste_2023-02-21_19-08-09.png)
+![](./assets/002-Snipaste_2023-02-21_19-08-09.png)
 
 打开 Git Bash，根据图片输入如下命令：
 
-![](../docs-images/003-Snipaste_2023-02-21_19-15-13.png)
+![](./assets/003-Snipaste_2023-02-21_19-15-13.png)
 
 
 
-![](../docs-images/004-Snipaste_2023-02-21_19-17-02.png)
+![](./assets/004-Snipaste_2023-02-21_19-17-02.png)
 
 
 
-![](../docs-images/005-Snipaste_2023-02-21_19-18-46.png)
+![](./assets/005-Snipaste_2023-02-21_19-18-46.png)
 
 
 
-![](../docs-images/006-Snipaste_2023-02-21_19-19-55.png)
+![](./assets/006-Snipaste_2023-02-21_19-19-55.png)
 
 第一次 `git clone` 的时候，会有一个认证确认，需要输入 `yes`，直接回车不可以。下面这张图片没有显示这个部分是因为我之前已经 `git clone` 过了，需要注意一下。
 
-![](../docs-images/008-Snipaste_2023-02-21_19-30-49.png)
-测试
-![](https://hbimg.b0.upaiyun.com/f74debe2772e8cba04f2b8ea5fa9c6a807030ae93ca9f-UcQGOZ_fw658)
+![](./assets/008-Snipaste_2023-02-21_19-30-49.png)
