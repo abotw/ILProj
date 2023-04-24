@@ -37,3 +37,7 @@
 - [ZOJ](https://zoj.pintia.cn/home/news) 浙江大学在线评测系统，始于 2001 年。
 - [WZOI](https://wzoi.cc/) 始于 2017 年，由浙江省温州中学维护的开源评测系统。
 - [HDU Online Judge](http://acm.hdu.edu.cn/) 始于 2005 年，杭州电子科技大学在线评测系统。
+
+#### 3. 前端设计风格参考
+
+* [codecademy](https://www.codecademy.com/)
