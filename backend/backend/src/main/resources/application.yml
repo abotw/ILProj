@@ -1,0 +1,19 @@
+server:  #访问端口
+  port: 8080
+
+spring:
+  datasource:
+    #配置数据源类型
+    type: com.zaxxer.hikari.HikariDataSource
+    #配置连接数据库的信息
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xdb #数据库连接
+    username: root
+    password: hsp
+  redis:
+    port: 6379
+    host: localhost
+
+logging:
+  level:
+    com.ilproj: debug
