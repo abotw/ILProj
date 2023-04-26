@@ -1,15 +1,12 @@
 package com.ilproj.backend.sys.controller;
 
 import com.ilproj.backend.common.vo.Result;
-import com.ilproj.backend.sys.service.IUserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.Resource;
 import java.util.HashMap;
 
 /**
@@ -23,8 +20,17 @@ import java.util.HashMap;
 @RestController
 @RequestMapping("/user")
 public class UserController {
-    @Resource
+
+    @Autowired
     private IUserService iUserService;
+
+    @GetMapping("/test")
+    public Result<?> test(){
+        HashMap<String,Object> data = new HashMap<>();
+        data.put("data",iUserService.list());
+        return Result.success(data);
+    }
+
     @GetMapping("/{id}")
     public Result<?> getUser(@PathVariable("id") Long id) {
         HashMap<String, Object> data = new HashMap<String, Object>();
@@ -32,6 +38,5 @@ public class UserController {
 
         return Result.success(data);
     }
-
 
 }
