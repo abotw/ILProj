@@ -1,6 +1,8 @@
 # API
 
 * [Restful API设计最佳实践](http://kaelzhang81.github.io/2019/05/24/Restful-API%E8%AE%BE%E8%AE%A1%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/)
+* [Apifox帮助文档](https://apifox.com/help/)
+* [21分钟学会Apifox](https://www.bilibili.com/video/BV1ae4y1y7bf/)
 
 ## 用户登录 230417 - 230424
 
