@@ -17,7 +17,7 @@ CREATE TABLE user (
   PRIMARY KEY (id)
 );
 
-INSERT INTO user VALUES(0, 'root', 'root', 'root@root.com');
+INSERT INTO user VALUES(0, 'root', 'root', 'root@root.com',0);
 ```
 
 添加逻辑删除标记 '**deleted**'  0表示未删除，1表示已删除 
