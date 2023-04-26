@@ -2,6 +2,8 @@ package com.ilproj.backend.sys.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+
 import java.io.Serializable;
 
 /**
@@ -12,6 +14,8 @@ import java.io.Serializable;
  * @author IL
  * @since 2023-04-26
  */
+//@ApiModel(value = "User对象", description = "")
+@TableName("user")
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
