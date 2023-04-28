@@ -18,6 +18,19 @@ CREATE TABLE user (
 );
 
 INSERT INTO user VALUES(0, 'root', 'root', 'root@root.com',0);
+
+
+
+ALTER TABLE USER ADD nickname INT DEFAULT NULL;
+ALTER TABLE USER MODIFY COLUMN PASSWORD VARCHAR(100); 
+ALTER TABLE USER ADD UNIQUE (username);
+
 ```
 
 添加逻辑删除标记 '**deleted**'  0表示未删除，1表示已删除 
+
+添加nickname字段，默认值为null
+
+4.28 修改password字段长度，因为加密后长度为100以上
+
+​		 修改用户名字段为uniqe（不可重复）
