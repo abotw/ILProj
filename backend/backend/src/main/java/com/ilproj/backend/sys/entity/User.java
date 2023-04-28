@@ -33,6 +33,16 @@ public class User implements Serializable {
 
     private Integer deleted;
 
+    private String nickname;
+
+    public String getNickname() {
+        return nickname;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
     public Integer getId() {
         return id;
     }

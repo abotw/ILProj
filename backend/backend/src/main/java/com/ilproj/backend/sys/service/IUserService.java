@@ -6,6 +6,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.Map;
+
 /**
  * <p>
  *  服务类
@@ -19,4 +21,5 @@ public interface IUserService extends IService<User> {
 
     User byid(long id);
 
+    Map<String,Object> userLogin(User user);
 }
